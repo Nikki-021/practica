@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+
+    <View
+        android:id="@+id/vw_favorito"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_volver"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@drawable/flecha"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@id/vw_favorito"
+        app:layout_constraintTop_toTopOf="@+id/vw_favorito"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_favorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favoritos2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="135dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_favorito"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_lineve"
+        />
+
+    <View
+        android:id="@+id/vw_lineve"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua1"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_favorito"
+        android:background="@color/white" />
+
+    <View
+        android:id="@+id/vw_cua1"
+        android:layout_width="390dp"
+        android:layout_height="130dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua2"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_favorito"/>
+
+    <ImageView
+        android:id="@+id/iv_produc1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/estrella"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="@id/vw_cua1"
+        app:layout_constraintStart_toStartOf="@id/vw_cua1"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_produc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="150dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_cua1"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua1"/>
+
+    <View
+        android:id="@+id/vw_cua2"
+        android:layout_width="390dp"
+        android:layout_height="130dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua3"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_favorito"/>
+
+    <ImageView
+        android:id="@+id/iv_produc2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/estrella"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="@id/vw_cua2"
+        app:layout_constraintStart_toStartOf="@id/vw_cua2"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_produc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="150dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_cua2"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua2"/>
+
+
+    <View
+        android:id="@+id/vw_cua3"
+        android:layout_width="390dp"
+        android:layout_height="130dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua4"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_favorito"/>
+
+    <ImageView
+        android:id="@+id/iv_produc3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/estrella"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="@id/vw_cua3"
+        app:layout_constraintStart_toStartOf="@id/vw_cua3"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_produc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="150dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_cua3"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua3"/>
+
+
+    <View
+        android:id="@+id/vw_cua4"
+        android:layout_width="390dp"
+        android:layout_height="130dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_favorito"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_favorito"/>
+
+    <ImageView
+        android:id="@+id/iv_produc4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/estrella"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toTopOf="@id/vw_cua4"
+        app:layout_constraintStart_toStartOf="@id/vw_cua4"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_produc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="150dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_cua4"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_cua4"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

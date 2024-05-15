@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/vw_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="200dp"
+        android:src="@drawable/menu"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/free_shop"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vw_linea1"
+        android:layout_marginStart="125dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+
+    <View
+        android:id="@+id/vw_linea1"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="@+id/vw_menu"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="@+id/vw_menu"
+        android:layout_marginStart="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="@+id/vw_linea1"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_carrito"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/carrito"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agregar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="@id/view1"
+        app:layout_constraintBottom_toBottomOf="@id/view1"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginTop="110dp"
+        app:layout_constraintTop_toTopOf="@+id/view1"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_buscar"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/buscar"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/view2"
+        app:layout_constraintStart_toStartOf="@id/view2"
+        android:importantForAccessibility="no" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cuadro"
+        android:layout_marginTop="110dp"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_vender"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/vender"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/view3"
+        app:layout_constraintStart_toStartOf="@id/view3"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_vender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vender"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="@id/view3"
+        app:layout_constraintBottom_toBottomOf="@id/view3"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/cuadro"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_fav"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/estrella"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/view4"
+        app:layout_constraintStart_toStartOf="@id/view4"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tv_favorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favoritos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="@id/view4"
+        app:layout_constraintBottom_toBottomOf="@id/view4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintBottom_toBottomOf="@id/view2"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/cuadro"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/elimin"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="@id/view6"
+        app:layout_constraintBottom_toBottomOf="@id/view6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_termi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terminos_y_condiciones"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="90dp"
+        app:layout_constraintStart_toStartOf="@id/vw_menu"
+        app:layout_constraintTop_toTopOf="@id/view5"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="@id/vw_menu"
+        app:layout_constraintBottom_toBottomOf="@id/vw_menu"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

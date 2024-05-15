@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">practica</string>
+    <string name="entrar">Entrar</string>
+    <string name="free_shop">Free Shop</string>
+    <string name="agregar">Agregar</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="vender">Vender</string>
+    <string name="buscar">Buscar</string>
+    <string name="terminos_y_condiciones">Terminos y Condiciones</string>
+    <string name="ingrese_nombre">Ingrese nombre</string>
+    <string name="ingrese_codigo">Ingrese codigo</string>
+    <string name="ingrese_cantidad">Ingrese cantidad</string>
+    <string name="ingrese_precio">Ingrese precio</string>
+    <string name="agregar2">Agregar</string>
+    <string name="buscar_producto">Buscar Producto</string>
+    <string name="nombre_codigo">Nombre/codigo</string>
+    <string name="nombre_ncodigo_ncantidad_nprecio">Nombre: ...\nCodigo: ... \nCantidad: ...\nPrecio: ...</string>
+    <string name="vender2">Vender</string>
+    <string name="favoritos2">Favoritos</string>
+    <string name="products">Products</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="elimin">Eliminar</string>
+    <string name="terminos">Terminos y condiciones</string>
+    <string name="bienvenido">Bienvenido a Free-Shop \n \nAl utilizar esta aplicacion, \naceptas cumplir con los \nsiguientes terminos y condiciones. \n \n1. Uso Apropiado: Debes utilizar la aplicacion de manera \nadecuada y respetuosa. No debes realizar \nninguna accion que pueda afectuar la \nfuncionalidad de la aplicacion o comprometer \nla seguridad de los datos. \n \n2. Responsabilidad del ususario: \nEres el unico responsable de las \nacciones que realices a traves de la \naplicación. cualquier contenido que publiques \no modifiques debe ser apropiado y no infrigir \nlos derechos de terceros. \n \n3.Privacidad de los datos: Respetamos tu \nprivacidad y protegemos tus datos personales \nde acuerdo a nuestra politica de privacidad. \nAl utilizar la aplicación, aceptas las \n condiciones establecidas en dicha pilitica. \n \n4. Propiedad Intelectual: \nTodo el contenido proporcionado por la \naplocacion, incluidos textos,imagenes \ngraficos y logotipos, estan protegidos por \nderechos de autor y propiedad intelectual. No \nesta pemitida la reproduccion o distribucion \nno autorizada del contenido. \n \n5.Modificaciones en la Aplicacion: \nNos reservamos el derecho de realiazar \ncambios o actualizaciones e la aplicacion sin \nprevio aviso. Esto puede incluir agregado o \neliminacionde caracteristicas , correcion de \nerrores y mejoras en el rendimiento.</string>
+</resources>
